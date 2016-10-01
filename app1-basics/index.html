@@ -1,6 +1,10 @@
-<html>
-	<body>
-	
+<html ng-app='drills'>
+	<body ng-controller="mainCtrl">
+		<input ng-model= 'text' type="text" name:'text' nplaceholder:"enter text">
+		<div>
+			{{text}}
+		</div>
+
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.js"></script>
 		<script src="app.js"></script>
 		<script src="controller.js"></script>
